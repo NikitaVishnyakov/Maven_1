@@ -1,7 +1,7 @@
 package com.github.javarushcommunity.mavendemo;
 
 import com.github.romankh3.image.comparison.ImageComparisonUtil;
-//import org.junit.Test;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -9,10 +9,9 @@ import org.junit.jupiter.api.Test;
 import java.awt.image.BufferedImage;
 
 
-class ImageComparatorTest {
-    @DisplayName("Unit-level testing for ImageComparator")
+@DisplayName("Unit-level testing for ImageComparator")
 
-    class ImageComparatorTest {
+class ImageComparatorTest {
 
         private final ImageComparator comparator = new ImageComparator();
 
@@ -35,5 +34,4 @@ class ImageComparatorTest {
 
             Assertions.assertTrue(theSameImages);
         }
-    }
 }
